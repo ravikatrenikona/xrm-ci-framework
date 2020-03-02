@@ -1,3 +1,5 @@
+
+
 {
   "options": [
     {
@@ -120,12 +122,7 @@
       "date": "2017-11-17T00:00:00.000Z"
     }
   ],
-  "_links": {
-    "self": { "href": "https://waelhamze.visualstudio.com/5353f2a6-fec0-4139-9e87-cc63b4434c1a/_apis/build/Definitions/1" },
-    "web": { "href": "https://waelhamze.visualstudio.com/_permalink/_build/index?collectionId=c095144a-c678-48b8-a8ad-55cc19d05d3c&projectId=5353f2a6-fec0-4139-9e87-cc63b4434c1a&definitionId=1" },
-    "editor": { "href": "https://waelhamze.visualstudio.com/_permalink/_build/definitionEditor?collectionId=c095144a-c678-48b8-a8ad-55cc19d05d3c&projectId=5353f2a6-fec0-4139-9e87-cc63b4434c1a&definitionId=1" },
-    "badge": { "href": "https://waelhamze.visualstudio.com/_apis/public/build/definitions/5353f2a6-fec0-4139-9e87-cc63b4434c1a/1/badge" }
-  },
+  
   "buildNumberFormat": "9.0.0$(rev:.r)",
   "jobAuthorizationScope": 1,
   "jobTimeoutInMinutes": 60,
@@ -388,15 +385,15 @@
       "reportBuildStatus": "true",
       "fetchDepth": "0",
       "connectedServiceId": "45fc0862-9503-4137-9821-314e5b3cfef3",
-      "apiUrl": "https://api.github.com/repos/WaelHamze/xrm-ci-framework",
-      "branchesUrl": "https://api.github.com/repos/WaelHamze/xrm-ci-framework/branches",
-      "cloneUrl": "https://github.com/WaelHamze/xrm-ci-framework.git",
-      "refsUrl": "https://api.github.com/repos/WaelHamze/xrm-ci-framework/git/refs"
+      "apiUrl": "https://github.com/ravikatrenikona/xrm-ci-framework",
+      "branchesUrl": "https://github.com/ravikatrenikona/xrm-ci-framework/branches",
+      "cloneUrl": "https://github.com/ravikatrenikona/xrm-ci-framework.git",
+      "refsUrl": "https://github.com/ravikatrenikona/xrm-ci-framework/git/refs"
     },
-    "id": "https://github.com/WaelHamze/xrm-ci-framework.git",
+    "id": "hhttps://github.com/ravikatrenikona/xrm-ci-framework.git",
     "type": "GitHub",
-    "name": "WaelHamze/xrm-ci-framework",
-    "url": "https://github.com/WaelHamze/xrm-ci-framework.git",
+    "name": "ravikatrenikona/xrm-ci-framework",
+    "url": "https://github.com/ravikatrenikona/xrm-ci-framework.git",
     "defaultBranch": "master",
     "clean": "false",
     "checkoutSubmodules": false
@@ -436,8 +433,8 @@
   },
   "id": 1,
   "name": "XrmCIFramework",
-  "url": "https://waelhamze.visualstudio.com/5353f2a6-fec0-4139-9e87-cc63b4434c1a/_apis/build/Definitions/1",
-  "uri": "vstfs:///Build/Definition/1",
+  "url": "http://hyrinddev057:8090/DefaultCollection/DevOpsteam/_build?definitionId=25",
+  "uri": "vstfs:///Build/Definition/25",
   "path": "\\",
   "type": 2,
   "queueStatus": 0,
@@ -446,7 +443,7 @@
   "project": {
     "id": "5353f2a6-fec0-4139-9e87-cc63b4434c1a",
     "name": "MSDynamicsDevOps",
-    "url": "https://waelhamze.visualstudio.com/_apis/projects/5353f2a6-fec0-4139-9e87-cc63b4434c1a",
+    "url": "http://hyrinddev057:8090/DefaultCollection/DevOpsteam",
     "state": "wellFormed",
     "revision": 8,
     "visibility": 0
