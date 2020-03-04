@@ -1,10 +1,9 @@
 
-
 {
   "options": [
     {
       "enabled": true,
-      "definition": { "id": "5d58cc01-7c75-450c-be18-a388ddb129ec" },
+      "definition": { "id": "5353f2a6-fec0-4139-9e87-cc63b4434c1a" },
       "inputs": {
         "branchFilters": "[\"+refs/heads/*\"]",
         "additionalFields": "{}"
