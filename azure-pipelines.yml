@@ -1,4 +1,7 @@
-
+pool:
+  name: Default
+  demands: powershell
+steps:
 {
   "options": [
     {
@@ -8,7 +11,7 @@
         "branchFilters": "[\"+refs/heads/*\"]",
         "additionalFields": "{}"
       }
-    },
+ },
     {
       "enabled": false,
       "definition": { "id": "a9db38f9-9fdc-478c-b0f9-464221e58316" },
