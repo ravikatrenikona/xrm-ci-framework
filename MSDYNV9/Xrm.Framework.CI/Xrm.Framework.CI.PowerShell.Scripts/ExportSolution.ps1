@@ -1,4 +1,4 @@
-﻿#
+#
 # ExportSolution.ps1
 #
 
@@ -71,7 +71,8 @@ if ($UpdateVersion)
 	Set-XrmSolutionVersion -ConnectionString "$CrmConnectionString" -SolutionName "$SolutionName" -Version $RequiredVersion
 	Write-Host "Solution Version Updated"
 }
-
+$CrmConnectionString="AuthType=Office365;ServiceUri=https://ravimahesh2011.crm8.dynamics.com//XRMServices/2011/Organization.svc?wsdl;Username=crmtest@ravimahesh2011.onmicrosoft.com;Password=Password#2020"
+$SolutionName="Crfa1bf"
 #Solution Export
 
 $exportManagedFile
