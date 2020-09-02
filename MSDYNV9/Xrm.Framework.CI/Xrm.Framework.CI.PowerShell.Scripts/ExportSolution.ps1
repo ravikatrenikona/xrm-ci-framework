@@ -63,7 +63,10 @@ $xrmCIToolkit = $scriptPath + "\Xrm.Framework.CI.PowerShell.Cmdlets.dll"
 Write-Verbose "Importing CIToolkit: $xrmCIToolkit" 
 Import-Module $xrmCIToolkit
 Write-Verbose "Imported CIToolkit"
-
+#variable declaration
+$CrmConnectionString="AuthType=Office365;ServiceUri=https://ravimahesh2011.crm8.dynamics.com//XRMServices/2011/Organization.svc?wsdl;Username=crmtest@ravimahesh2011.onmicrosoft.com;Password=Password#2020"
+$SolutionName="Crfa1bf"
+$ExportSolutionOutputPath="C:\Users\Ravi.k\agent\agent_veritouch\_work\1\a\"
 #Update Version
 if ($UpdateVersion)
 {
@@ -71,9 +74,7 @@ if ($UpdateVersion)
 	Set-XrmSolutionVersion -ConnectionString "$CrmConnectionString" -SolutionName "$SolutionName" -Version $RequiredVersion
 	Write-Host "Solution Version Updated"
 }
-$CrmConnectionString="AuthType=Office365;ServiceUri=https://ravimahesh2011.crm8.dynamics.com//XRMServices/2011/Organization.svc?wsdl;Username=crmtest@ravimahesh2011.onmicrosoft.com;Password=Password#2020"
-$SolutionName="Crfa1bf"
-$ExportSolutionOutputPath="C:\Users\Ravi.k\agent\agent_veritouch\_work\1\a\"
+
 #Solution Export
 
 $exportManagedFile
