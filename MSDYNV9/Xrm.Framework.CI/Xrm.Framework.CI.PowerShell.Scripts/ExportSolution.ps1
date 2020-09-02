@@ -73,7 +73,7 @@ if ($UpdateVersion)
 }
 $CrmConnectionString="AuthType=Office365;ServiceUri=https://ravimahesh2011.crm8.dynamics.com//XRMServices/2011/Organization.svc?wsdl;Username=crmtest@ravimahesh2011.onmicrosoft.com;Password=Password#2020"
 $SolutionName="Crfa1bf"
-$ExportSolutionOutputPath="$(Build.ArtifactStagingDirectory)"
+$ExportSolutionOutputPath="C:\Users\Ravi.k\agent\agent_veritouch\_work\1\a\"
 #Solution Export
 
 $exportManagedFile
