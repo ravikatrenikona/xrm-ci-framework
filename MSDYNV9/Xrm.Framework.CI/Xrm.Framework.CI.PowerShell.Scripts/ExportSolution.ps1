@@ -5,7 +5,7 @@
 param(
 [string]$CrmConnectionString,
 [string]$SolutionName,
-[bool]$ExportManaged,
+[bool]$ExportManaged = $false,
 [bool]$ExportUnmanaged = $true,
 [string]$TargetVersion,
 [string]$ExportSolutionOutputPath,
