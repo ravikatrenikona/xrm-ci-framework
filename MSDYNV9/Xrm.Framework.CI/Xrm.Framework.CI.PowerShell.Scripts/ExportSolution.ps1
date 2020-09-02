@@ -68,7 +68,7 @@ Write-Verbose "Imported CIToolkit"
 if ($UpdateVersion)
 {
 	Write-Host "Updating Solution Version to $RequiredVersion"
-	Set-XrmSolutionVersion -ConnectionString "$CrmConnectionString" -SolutionName $SolutionName -Version $RequiredVersion
+	Set-XrmSolutionVersion -ConnectionString "$CrmConnectionString" -SolutionName "$SolutionName" -Version $RequiredVersion
 	Write-Host "Solution Version Updated"
 }
 
