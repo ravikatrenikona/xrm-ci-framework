@@ -20,6 +20,7 @@ Write-Verbose "OutputFolder = $OutputFolder"
 Write-Verbose "ConfigFilePath = $ConfigFilePath"
 Write-Verbose "Timeout = $Timeout"
 
+$ConfigFilePath ="https://github.com/ravikatrenikona/xrm-ci-framework/blob/master/MSDYNV9/Xrm.Framework.CI/Xrm.Framework.CI.Common/Schema/ExportSolution.json"
 #Script Location
 $scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
 Write-Verbose "Script Path: $scriptPath"
